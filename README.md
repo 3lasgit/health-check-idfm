@@ -1,6 +1,6 @@
 # IDFM Real-Time Health Check Pipeline
 
-Ce projet implémente une pipeline Big Data de bout en bout pour surveiller la santé du réseau RER B (Station : La Croix de Berny) en comparant les horaires théoriques et réels en temps réel.
+Ce projet implémente une pipeline Big Data de bout en bout pour surveiller la santé du réseau (Station : La Croix de Berny) en comparant les horaires théoriques et réels en temps réel.
 
 ## 1. Infrastructure du Cluster (Mapping)
 
