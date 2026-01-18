@@ -11,7 +11,7 @@ STATION_ID = "STIF:StopPoint:Q:41154:" # Croix de Berny
 URL = f"https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring?MonitoringRef={STATION_ID}"
 
 producer = KafkaProducer(
-    bootstrap_servers=['master:9092'],
+    bootstrap_servers=["master:9092", "worker_2:9092"],
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
 
